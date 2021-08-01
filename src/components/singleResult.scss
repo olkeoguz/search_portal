@@ -1,0 +1,36 @@
+$small: 642px;
+$medium: 1000px;
+
+.singleResult {
+  border-bottom: 1px solid #585858;
+  margin-bottom: 12px;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $medium) {
+      overflow: hidden;
+    }
+
+    .city-country {
+      font-size: 18px;
+      font-weight: 500;
+      color: #484848;
+      line-height: 21.09px;
+    }
+
+    .email {
+      font-size: 18px;
+      font-weight: 500;
+      color: #484848;
+      line-height: 21.09px;
+    }
+  }
+
+  .name-year {
+    color: #686868;
+    font-size: 12px;
+  }
+}
